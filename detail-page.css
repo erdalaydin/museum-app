@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 2rem 0;
     width: 100%;
-    background: #FFBA00;
+    background: rgb(233, 38, 3);
     font-family: 'Inconsolata', monospace;
     text-align: center;
   }
