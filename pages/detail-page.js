@@ -22,7 +22,8 @@ function submitComment() {
     const commentSection = document.getElementById('comments')
     commentSection.appendChild(comment)
   
-
-    inputField.value = null
-    textArea.value = null
+   
+    inputField.value = null;
+    textArea.value = null;
+    
   }

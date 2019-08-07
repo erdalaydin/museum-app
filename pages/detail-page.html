@@ -9,29 +9,31 @@
     <body>
            <main>
                 <section id='content'></section>
-            
-                <section id='comments'>
-                  <h2>Comments</h2>
+                  <h2>Erdal's Museum App</h2>
+               <!-- <section id='comments'>
+                  <h2>Comments</h2> -->
                   
-                  <section class='comment'>
-                    <h3>Erdal's Mobile Museum App</h3>
-                    <p>"a lady who miss her love!"</p>
-                  </section>
+                  
                 </section>
 
             <a href=""> <img src="https://gazetekarinca.com/wp-content/uploads/2019/05/k%C3%BCrt_%C3%A7acda%C5%9F_sanat.jpg"></a>
 
-            <h1> comment </h1>
-            
+            <section id='comments'> 
+              <h2>Comments</h2>
+              <section class='comment'>
+                <h3>Solen said:</h3>
+                <p>"a lady who miss her love!"</p>
+              </section>
+            </section>
             <form onsubmit="submitComment(); return false">
                     <div class="formSection">
                       <label for="name">Name:</label>
-                      <input type="text" id="name">
+                      <input type="text" id="name" placeholder="Write your name">
                     </div>  
 
                     <div class="formSection">
                       <label for="msg">Message:</label>
-                      <textarea id="msg"></textarea>
+                      <textarea id="msg" placeholder="Write your message"></textarea>
                     </div>
                     <div class="button">
                       <button type="default">Post your comment</button>
